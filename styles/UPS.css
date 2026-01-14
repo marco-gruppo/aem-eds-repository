@@ -1,0 +1,153 @@
+ .menu-six-option .icon{
+    vertical-align: bottom;
+}
+
+.menu-six-option {
+ padding: 0px !important;
+ margin-top: -100px;
+}
+
+.menu-six-option div {
+    border-bottom: 0px !important;
+}
+
+.menu-six-option a.button, .info-card .button-container a.button {
+color: #064D93;
+font-weight: bold;
+font-size: 20px;
+border: 2px solid;
+width: 100%;
+background: #FFF;
+border-radius: 0px;
+}
+
+.info-card .button-container a.button {
+    width: 150px !important;
+}
+
+.info-card p.button-container {
+    text-align: center;
+}
+
+.info-card h5{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 39px;
+}
+
+
+
+
+.menu-six-option div div:nth-child(1) a.button, .info-card .button-container a.button 
+{
+ border-color: #ffc63e !important;
+}
+
+.menu-six-option div div:nth-child(2) a.button
+{
+ border-color: #074fea !important;
+}
+
+.menu-six-option div div:nth-child(3) a.button
+{
+ border-color: #FF186A !important;
+}
+
+.menu-four-option div div:nth-child(4) a.button
+{
+ border-color: #58b947 !important;
+}
+
+.menu-four-option div div:nth-child(5) a.button
+{
+ border-color: #58b947 !important;
+}
+
+.menu-four-option div div:nth-child(6) a.button
+{
+ border-color: #58b947 !important;
+}
+
+
+.standard-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    color: #121212;
+    letter-spacing: 0.025em;
+    line-height: 1.5;
+}
+
+.section.background-blue {
+    background: #3776B1;
+}
+
+.info-card {
+    padding-top: 0 !important;
+}
+
+.info-card div {
+    background-color: #FFF;
+    border-bottom: 0px !important;
+}
+
+.faq .accordion-item-label p {
+    font-size: 30px;
+    color: #ff186a;
+    line-height: 30px;
+}
+
+.faq .accordion-item-body {
+    background-color: #FFF !important;
+}
+
+.faq .accordion-item-body p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+@media (max-width: 899px) {
+    .menu-four-option div {
+        height: 250px !important;
+        border-bottom: 0px !important;
+    }
+
+    .info-card .columns-img-col img {
+        width: 100% !important;
+    }
+
+    .info-card h5 {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .standard-text, .background-grey h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu-four-option .button-container {
+        text-align: center !important;
+    }
+    
+    .menu-four-option a.button {
+        width: 90% !important;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .menu-four-option div {
+        height: 100px !important;
+        border-bottom: 0px !important;
+    }
+    .info-card div {
+        height: 420px !important;
+        border-bottom: 0px !important;
+    }
+
+    
+}
