@@ -28,6 +28,13 @@
 		"environments": ["preview","live", "edit"],
 		"includePaths": ["**.docx**"]
 	  }
+	    {
+      "id": "experimentation",
+      "title": "Experimentation",
+      "url": "/tools/sidekick/experimentation.html",
+      "environments": ["preview", "live", "edit"],
+      "includePaths": ["**.docx**"]
+    }
 	]
   }
   
